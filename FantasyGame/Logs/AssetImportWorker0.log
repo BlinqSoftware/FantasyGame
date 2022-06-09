@@ -15,11 +15,11 @@ C:/Blinq Software/FantasyGame/FantasyGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62214
+54492
 Successfully changed project path to: C:/Blinq Software/FantasyGame/FantasyGame
 C:/Blinq Software/FantasyGame/FantasyGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 141.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 89.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002441 seconds.
+Registered in 0.002384 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 80.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.691 seconds
+- Completed reload, in  0.654 seconds
 Domain Reload Profiling:
-	ReloadAssembly (692ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (655ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (537ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
+			SetupTypeCache (151ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (245ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (210ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.136008 seconds.
+Registered in 0.014011 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 226.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 84.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.952 seconds
+- Completed reload, in  1.763 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2953ms)
-		BeginReloadAssembly (228ms)
+	ReloadAssembly (1764ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (2624ms)
-			LoadAssemblies (180ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1548ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (776ms)
+			SetupTypeCache (383ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (175ms)
-			SetupLoadedEditorAssemblies (1125ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (712ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (227ms)
-				BeforeProcessingInitializeOnLoad (166ms)
-				ProcessInitializeOnLoadAttributes (465ms)
-				ProcessInitializeOnLoadMethodAttributes (249ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (335ms)
+				ProcessInitializeOnLoadMethodAttributes (174ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.44 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 204.4 MB.
-System memory in use after: 204.6 MB.
+System memory in use before: 203.9 MB.
+System memory in use after: 204.1 MB.
 
 Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4687.
-Total: 5.995500 ms (FindLiveObjects: 0.507200 ms CreateObjectMapping: 0.301600 ms MarkObjects: 5.096800 ms  DeleteObjects: 0.088800 ms)
+Total: 3.907500 ms (FindLiveObjects: 0.291900 ms CreateObjectMapping: 0.218000 ms MarkObjects: 3.333400 ms  DeleteObjects: 0.063200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,60 +131,858 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Visual Design Cafe/Nature Renderer/Nature Renderer.asset
-  artifactKey: Guid(c34b4f167b2c16542b4dd862579bc4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer/Nature Renderer.asset using Guid(c34b4f167b2c16542b4dd862579bc4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49e8ec6daad7349ce9b8e957720e0c9') in 0.046252 seconds 
+  path: Assets/Scenes/Test.unity
+  artifactKey: Guid(7d893cb19095c7646b0029bfbba14be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test.unity using Guid(7d893cb19095c7646b0029bfbba14be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a8ff06d3661a8eb2662d20f3426e5e') in 0.013305 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 143.980946 seconds.
-  path: Assets/Visual Design Cafe
-  artifactKey: Guid(13cfe959a9af58344967c82f42322287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe using Guid(13cfe959a9af58344967c82f42322287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af5e01ee4e50c6c4cb1740a6d5ee004') in 0.004373 seconds 
+  Time since last request: 1.101596 seconds.
+  path: Assets/Polygon-FantasyVillage
+  artifactKey: Guid(a98678dd8aa05b44c9339912336fec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage using Guid(a98678dd8aa05b44c9339912336fec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ef7deecf6ae7fbd466a7e481aab775') in 0.003979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.229842 seconds.
+  path: Assets/Polygon-FantasyVillage/Demo_Day_Profiles
+  artifactKey: Guid(27ac78b35cc6a9948b2a4c332b5cb256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Demo_Day_Profiles using Guid(27ac78b35cc6a9948b2a4c332b5cb256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188ec40d5c539394d11f78ea8217f4ab') in 0.002245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.028949 seconds.
+  path: Assets/Polygon-FantasyVillage/Demo_Day_Profiles/Day.asset
+  artifactKey: Guid(e42c7c9e67f2c694fb5572f86cc09247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Demo_Day_Profiles/Day.asset using Guid(e42c7c9e67f2c694fb5572f86cc09247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26212c75ad1aacbd637469df357cbca6') in 0.024133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Polygon-FantasyVillage/Demo_Day_Profiles/Sky.mat
+  artifactKey: Guid(f5caa65849c855044b2b97e9ae1fcd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Demo_Day_Profiles/Sky.mat using Guid(f5caa65849c855044b2b97e9ae1fcd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abcaa6018a5dff57155134f0ce96869') in 2.205905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.734718 seconds.
+  path: Assets/Polygon-FantasyVillage/Demo_Night_Profiles
+  artifactKey: Guid(c2000c1c1345cdf4a8a505380613d4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Demo_Night_Profiles using Guid(c2000c1c1345cdf4a8a505380613d4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60cddab4ccbd1013ade2eb16c284944') in 0.002347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.919857 seconds.
+  path: Assets/Polygon-FantasyVillage/Demo_Night_Profiles/Night.asset
+  artifactKey: Guid(30ac219cdae090b498af37345b11e51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Demo_Night_Profiles/Night.asset using Guid(30ac219cdae090b498af37345b11e51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2fe3442df03cdc64ff9853257568a0') in 0.002652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Polygon-FantasyVillage/Demo_Night_Profiles/SkyNight.mat
+  artifactKey: Guid(0e29fe383182b8448a26bcb73ef4e1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Demo_Night_Profiles/SkyNight.mat using Guid(0e29fe383182b8448a26bcb73ef4e1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fc7a28181ae079bd6189eb16790647') in 0.031592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.252620 seconds.
+  path: Assets/Polygon-FantasyVillage/Materials
+  artifactKey: Guid(87d15da12774a0f45b616a91f3e115df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Materials using Guid(87d15da12774a0f45b616a91f3e115df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf09e077edeb1cfbaceb45978c7a973') in 0.002537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050835 seconds.
+  path: Assets/Polygon-FantasyVillage/Materials/Emission_Blue.mat
+  artifactKey: Guid(6980e711f74e3e84ab785117f962fe23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Materials/Emission_Blue.mat using Guid(6980e711f74e3e84ab785117f962fe23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d33b591510c449fb9d13ee79473442e') in 0.055714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Polygon-FantasyVillage/Materials/GroundSmooth.mat
+  artifactKey: Guid(a98c634bb4b3c924fbb4d773ddd7b476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Materials/GroundSmooth.mat using Guid(a98c634bb4b3c924fbb4d773ddd7b476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c115333da5a9c07f23c5af7e86ee61c') in 0.057464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Polygon-FantasyVillage/Materials/MainMaterial.mat
+  artifactKey: Guid(a3fa180b69f9c0a46a405a5e08e1dc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Materials/MainMaterial.mat using Guid(a3fa180b69f9c0a46a405a5e08e1dc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c4cc012f9b7211eb65110014a41146') in 0.028825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Polygon-FantasyVillage/Materials/Emission_Yellow.mat
+  artifactKey: Guid(268d9d6869b6f9f44b5fede35dc2ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Materials/Emission_Yellow.mat using Guid(268d9d6869b6f9f44b5fede35dc2ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6605a25e7bc383cc1661d913bbc6656e') in 0.027343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.913929 seconds.
+  path: Assets/Polygon-FantasyVillage/Materials/HDRP.unitypackage
+  artifactKey: Guid(97e14e2082b68e442a10822f4b99230a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Materials/HDRP.unitypackage using Guid(97e14e2082b68e442a10822f4b99230a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece2c6a77661b8d930877aed1dc69450') in 0.003739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.130320 seconds.
+  path: Assets/Polygon-FantasyVillage/Materials/Emission_Blue.mat
+  artifactKey: Guid(6980e711f74e3e84ab785117f962fe23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Materials/Emission_Blue.mat using Guid(6980e711f74e3e84ab785117f962fe23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00d82ae494d31dd1c4e55f7bacb2917') in 0.541052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Polygon-FantasyVillage/Materials/GroundSmooth.mat
+  artifactKey: Guid(a98c634bb4b3c924fbb4d773ddd7b476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Materials/GroundSmooth.mat using Guid(a98c634bb4b3c924fbb4d773ddd7b476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53333bd88cef10cc1c07baa6ce671c58') in 0.499887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Polygon-FantasyVillage/Materials/MainMaterial.mat
+  artifactKey: Guid(a3fa180b69f9c0a46a405a5e08e1dc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Materials/MainMaterial.mat using Guid(a3fa180b69f9c0a46a405a5e08e1dc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4c6f258ef3aa69ddc86b311f6e36ca') in 0.036222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Polygon-FantasyVillage/Materials/Emission_Yellow.mat
+  artifactKey: Guid(268d9d6869b6f9f44b5fede35dc2ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Materials/Emission_Yellow.mat using Guid(268d9d6869b6f9f44b5fede35dc2ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889ecf7fa63f0cb3a5183571815fdd3b') in 0.031470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.681484 seconds.
+  path: Assets/Polygon-FantasyVillage/Models
+  artifactKey: Guid(d9c712a1e97309d4b87157ec0cefb701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models using Guid(d9c712a1e97309d4b87157ec0cefb701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f27bec01e3d95716afc36d6cce2b44f') in 0.002570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065193 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Box_01_A.fbx
+  artifactKey: Guid(1eefb8483eba4ea4993f558a5fb6d108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Box_01_A.fbx using Guid(1eefb8483eba4ea4993f558a5fb6d108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb68d95b7d87bff85839cc455691460') in 0.276077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Dummy_01_B.fbx
+  artifactKey: Guid(9c0825ebfe7e65343bda8fbd326b8e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Dummy_01_B.fbx using Guid(9c0825ebfe7e65343bda8fbd326b8e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd1bc90017c6b19116a63dcd08438b4') in 0.051033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_04_A.fbx
+  artifactKey: Guid(e9fce44b225ea934f8ded0d5c92e11a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_04_A.fbx using Guid(e9fce44b225ea934f8ded0d5c92e11a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b2a070d1cdfc37d69afe80e8528ed3') in 0.055794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Fence_01_B.fbx
+  artifactKey: Guid(4555187d86032fa408f4d17f3551a3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Fence_01_B.fbx using Guid(4555187d86032fa408f4d17f3551a3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4691b8b939bc8028df106b08d5faf9e2') in 0.051880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Box_01_B.fbx
+  artifactKey: Guid(b50b219318535bb499c84bd34ded070d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Box_01_B.fbx using Guid(b50b219318535bb499c84bd34ded070d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dd49cf811265ddc56b1271c9c4d796') in 0.043704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_08_A.fbx
+  artifactKey: Guid(a8024d8dadd06314799b0600a59a80e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_08_A.fbx using Guid(a8024d8dadd06314799b0600a59a80e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545f368d32bb7e5f3e5c8934ddc92e6c') in 0.056058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_12_A.fbx
+  artifactKey: Guid(bc414d0d11533b54a8b60d3c9d696c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_12_A.fbx using Guid(bc414d0d11533b54a8b60d3c9d696c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9993ec62a9dd3139ce57f07104d1be3') in 0.046996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_09_A.fbx
+  artifactKey: Guid(c76e837077fba77418b892f81cb9a887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_09_A.fbx using Guid(c76e837077fba77418b892f81cb9a887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75824755bc702b5edcf6cb4fb3e802e9') in 0.056763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_02_A.fbx
+  artifactKey: Guid(e8b988e2d501de6419b88c6c7fc2a0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_02_A.fbx using Guid(e8b988e2d501de6419b88c6c7fc2a0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3470f8d05125fe7d63d7ca6a4360aa') in 0.057656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_03_B.fbx
+  artifactKey: Guid(b21d61225661eaa4c8715bc44e41468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_03_B.fbx using Guid(b21d61225661eaa4c8715bc44e41468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b956ba7ff726a035d4272f2980fbfa00') in 0.060508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_07_B.fbx
+  artifactKey: Guid(6e76dcc786695e645a702bfb5d2d8793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_07_B.fbx using Guid(6e76dcc786695e645a702bfb5d2d8793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18834b89e997a91b643656bcad943260') in 0.048116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_16_B.fbx
+  artifactKey: Guid(82fdd21e7682dec40b625769f27f9763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_16_B.fbx using Guid(82fdd21e7682dec40b625769f27f9763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a327d7c0a9cb6b8e60b666aa68d962') in 0.057947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_17_A.fbx
+  artifactKey: Guid(bdf85d52afffa084498554688b86b0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_17_A.fbx using Guid(bdf85d52afffa084498554688b86b0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7bb20c2d216b2620e9fbd2613adc1e') in 0.053438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_18_A.fbx
+  artifactKey: Guid(b373ddc10ea56d640afe048a32072181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_18_A.fbx using Guid(b373ddc10ea56d640afe048a32072181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53474fd81125fda62858cbbeef323599') in 0.057394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_09_B.fbx
+  artifactKey: Guid(aa2cf6190f1be0d4095611d687b20f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_09_B.fbx using Guid(aa2cf6190f1be0d4095611d687b20f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7094170450f9a5bba91bf55604d24dc8') in 0.054386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_10_B.fbx
+  artifactKey: Guid(ae733cd6fb4dd3f4f8f8c6b0d48f3852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_10_B.fbx using Guid(ae733cd6fb4dd3f4f8f8c6b0d48f3852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b535a408488aea46d7342bf874f4604') in 0.054615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_14_A.fbx
+  artifactKey: Guid(c3901ed4d663a7e4dbd5b4327e101711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_14_A.fbx using Guid(c3901ed4d663a7e4dbd5b4327e101711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e22deceec86ce5ad03082033fdb079d') in 0.061845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_15_A.fbx
+  artifactKey: Guid(8da14ee7b27bd9546944a5dd45dfdb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_15_A.fbx using Guid(8da14ee7b27bd9546944a5dd45dfdb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db92919d7e1de9fc2f101e6b64f80770') in 0.045127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_03_A.fbx
+  artifactKey: Guid(40f766a79614d4543a071c2aacbd7bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_03_A.fbx using Guid(40f766a79614d4543a071c2aacbd7bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8660ad4b3e6b41245791edd037d20aa') in 0.055066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_16_A.fbx
+  artifactKey: Guid(a6c0730476f316b498f269e26f7b37da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_16_A.fbx using Guid(a6c0730476f316b498f269e26f7b37da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd96405e3255f3f5b6739a0aed201f04') in 0.058040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_15_B.fbx
+  artifactKey: Guid(1510214cb48e4b6429282509721852f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_15_B.fbx using Guid(1510214cb48e4b6429282509721852f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68fdd44a59f5850b0171762e68b25f1') in 0.043568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_11_A.fbx
+  artifactKey: Guid(bcc9daeac93c06940802e62fbcf4e91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_11_A.fbx using Guid(bcc9daeac93c06940802e62fbcf4e91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e31358ff2c1c5a40774af3739ff0aae') in 0.057345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Cockshot_01_B.fbx
+  artifactKey: Guid(7250e697c3d4f9246a3e4661d83225e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Cockshot_01_B.fbx using Guid(7250e697c3d4f9246a3e4661d83225e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1047a33d1783c17cdc168ef4a770045') in 0.044208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_13_A.fbx
+  artifactKey: Guid(e8f0488b44510594ea9863655c65e5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_13_A.fbx using Guid(e8f0488b44510594ea9863655c65e5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4783f9627d32f31ecd15d7726a254144') in 0.055512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_12_B.fbx
+  artifactKey: Guid(fbfb6e091100d5f47b65ece56364820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_12_B.fbx using Guid(fbfb6e091100d5f47b65ece56364820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9810529bef27061ecb9deffe4c2f67c') in 0.043549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_06_B.fbx
+  artifactKey: Guid(eaa335cb6365a8548b830ec8fc8ff474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_06_B.fbx using Guid(eaa335cb6365a8548b830ec8fc8ff474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5682310075044bd18b0cec1f24ff4ba8') in 0.051542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_11_B.fbx
+  artifactKey: Guid(640045ccfb8415c489e5020db174adf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_11_B.fbx using Guid(640045ccfb8415c489e5020db174adf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02440cfed5754e8139d69d2bc2f6f9c') in 0.055115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_06_A.fbx
+  artifactKey: Guid(7c733cea24357ae43ab30a97612d1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_06_A.fbx using Guid(7c733cea24357ae43ab30a97612d1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2003b314cffcb2c4d053c0a44e222a64') in 0.049233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_14_B.fbx
+  artifactKey: Guid(b996b952015005545a9001cc522978c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_14_B.fbx using Guid(b996b952015005545a9001cc522978c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed2c723b54786cbed8fba74bc052c34') in 0.055627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_05_A.fbx
+  artifactKey: Guid(2db712338d2a5b049a60e4e3669ef313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_05_A.fbx using Guid(2db712338d2a5b049a60e4e3669ef313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb65b9a6dbbeddf4132d1b3a18e45654') in 0.066319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_02_B.fbx
+  artifactKey: Guid(7b0d33713c666c84e8b687d0aaea20c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_02_B.fbx using Guid(7b0d33713c666c84e8b687d0aaea20c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da75068c2a6de5008140117d84dd2a73') in 0.052506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_04_B.fbx
+  artifactKey: Guid(1d9d380545d8aaa41b74c535160788ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_04_B.fbx using Guid(1d9d380545d8aaa41b74c535160788ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a950fabdd4c8b6445db8f7bd291db0e6') in 0.086578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_08_B.fbx
+  artifactKey: Guid(9dec65aa256b2ed4aa51018bcfd8c796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_08_B.fbx using Guid(9dec65aa256b2ed4aa51018bcfd8c796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c93ac6f337c31fe82db070c913322a1') in 0.093145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Cockshot_01_A.fbx
+  artifactKey: Guid(1c0c448962a35f043be534af6c4df258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Cockshot_01_A.fbx using Guid(1c0c448962a35f043be534af6c4df258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c292f0c8d6a47185f2a1ebf98ed826') in 0.081832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_17_B.fbx
+  artifactKey: Guid(7ddea4b19a3fc4243bbdd6e5eb7fbc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_17_B.fbx using Guid(7ddea4b19a3fc4243bbdd6e5eb7fbc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236ecfc301592c758ef184496f83dc6b') in 0.087743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Fence_01_A.fbx
+  artifactKey: Guid(978056fc9ac2b1b4ba6f868dd0aa7e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Fence_01_A.fbx using Guid(978056fc9ac2b1b4ba6f868dd0aa7e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568421933f27dc786e9c6e61acbdf809') in 0.068347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_13_B.fbx
+  artifactKey: Guid(b7f227b74ee8d9a4c988438495efc06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_13_B.fbx using Guid(b7f227b74ee8d9a4c988438495efc06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627600108c403d19de31907289c5ec7e') in 0.080345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_01_B.fbx
+  artifactKey: Guid(d1f5ccd1e6ce1a34594a47479b7b12f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_01_B.fbx using Guid(d1f5ccd1e6ce1a34594a47479b7b12f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e5adf41265cd05e9cc5d908804c81d') in 0.084894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_07_A.fbx
+  artifactKey: Guid(d91508d5f3410e94089108cc13722cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_07_A.fbx using Guid(d91508d5f3410e94089108cc13722cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8924bc77c02a020a65bc3a9d709b075a') in 0.064677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Dummy_01_A.fbx
+  artifactKey: Guid(5976c7e3833cc2d46bd5c176137de835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Dummy_01_A.fbx using Guid(5976c7e3833cc2d46bd5c176137de835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29f9de2bb1f1ccd3352342ce7d76fa3') in 0.065531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Cart_01_B.fbx
+  artifactKey: Guid(854b07879d610884a847efe6b53027a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Cart_01_B.fbx using Guid(854b07879d610884a847efe6b53027a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b08733a7fbebf78df997be3d7479d7') in 0.081382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Cart_01_A.fbx
+  artifactKey: Guid(0cd3a6aea8619fa4981269001ed64512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Cart_01_A.fbx using Guid(0cd3a6aea8619fa4981269001ed64512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0884b977e575ae9ed57b0e5fb4a294b') in 0.082489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_10_A.fbx
+  artifactKey: Guid(be253f5d034218344b7a3aabb0d8ae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_10_A.fbx using Guid(be253f5d034218344b7a3aabb0d8ae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ab4b1c8f2cb445607475000bdbcfc1') in 0.082125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_05_B.fbx
+  artifactKey: Guid(91e2eba572ef2ea44b7d52ff02882e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_05_B.fbx using Guid(91e2eba572ef2ea44b7d52ff02882e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381da350f43f66c73f473afdeaf87516') in 0.113146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_hous_01_A.fbx
+  artifactKey: Guid(1fe6e4d3601588148823a572d7f0c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_hous_01_A.fbx using Guid(1fe6e4d3601588148823a572d7f0c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6742dbb71cbff324c592671224075a') in 0.082593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.161580 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_18_B.fbx
+  artifactKey: Guid(b717927113983554f9615e7427119a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_18_B.fbx using Guid(b717927113983554f9615e7427119a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61c0263cff27e913217248144aed18b') in 0.055199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_24_A.fbx
+  artifactKey: Guid(77c0b30f186636745aa7d4534636d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_24_A.fbx using Guid(77c0b30f186636745aa7d4534636d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58203ac92a7331851861dbaf238e35c8') in 0.058299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_19_A.fbx
+  artifactKey: Guid(1bf89a8ac334b774fb4cb83a1a2b4537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_19_A.fbx using Guid(1bf89a8ac334b774fb4cb83a1a2b4537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052454460c9ec1596045e95161460120') in 0.055722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_23_B.fbx
+  artifactKey: Guid(81798852e30d9f94e9232a6e4badbcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_23_B.fbx using Guid(81798852e30d9f94e9232a6e4badbcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ca994577c9cda72caee326bf3bbcfd') in 0.060000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_25_B.fbx
+  artifactKey: Guid(48884a5d325b5c0438448ac2d64e5191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_25_B.fbx using Guid(48884a5d325b5c0438448ac2d64e5191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a1fa7343e86dc7f871e0e3e4009b77') in 0.079218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_28_A.fbx
+  artifactKey: Guid(ba9a2169cd5fee5468c854702a62a3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_28_A.fbx using Guid(ba9a2169cd5fee5468c854702a62a3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca7da61ef1bded0ac1a875df8457864') in 0.055769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Lamp_01_B.fbx
+  artifactKey: Guid(ca49f68a742187a4283ef7f5a3ea302e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Lamp_01_B.fbx using Guid(ca49f68a742187a4283ef7f5a3ea302e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1665c3f5dbfc692d21e4a3703f8a19c4') in 0.055850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Mushroom_01_A.fbx
+  artifactKey: Guid(56b566cb5628a6e48831b0bbd6012acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Mushroom_01_A.fbx using Guid(56b566cb5628a6e48831b0bbd6012acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590812ef2307fe9e778cd66dea306598') in 0.044413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_27_B.fbx
+  artifactKey: Guid(e79d365c1167bce47a1a4f3a2c2d724f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_27_B.fbx using Guid(e79d365c1167bce47a1a4f3a2c2d724f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c001e8565e2275f6af46830e49890aa') in 0.044860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_27_A.fbx
+  artifactKey: Guid(62f02b6d2d432d7418075fd638f620f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_27_A.fbx using Guid(62f02b6d2d432d7418075fd638f620f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759ac84a784defec4b38c5a837d74f7f') in 0.049077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_24_B.fbx
+  artifactKey: Guid(bd141d59c6ce22e4f8ce25d85994f9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_24_B.fbx using Guid(bd141d59c6ce22e4f8ce25d85994f9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850549bfd99d84630f662754b87276dc') in 0.056106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_23_A.fbx
+  artifactKey: Guid(24289af31b24c044d9d27f3e4e5ce67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_23_A.fbx using Guid(24289af31b24c044d9d27f3e4e5ce67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a827a4d8d90895056f81b44da429cdd') in 0.056340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Lamp_01_A.fbx
+  artifactKey: Guid(c709bab646b5b474890ba3bdc29d122f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Lamp_01_A.fbx using Guid(c709bab646b5b474890ba3bdc29d122f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda47ac72cb72819ac4a3f89d9fc1b54') in 0.057851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Signboard_01_A.fbx
+  artifactKey: Guid(d664b47c2d23ddd4483ffc4afe76839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Signboard_01_A.fbx using Guid(d664b47c2d23ddd4483ffc4afe76839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7675074b9104539cefe6d1eee7517341') in 0.046268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Raod_02_A.fbx
+  artifactKey: Guid(d3eb3c647eb7b4b439d8cf944b37f50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Raod_02_A.fbx using Guid(d3eb3c647eb7b4b439d8cf944b37f50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359ce880c6f4d6a1a4dd21e6dff399b3') in 0.045037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Raod_01_A.fbx
+  artifactKey: Guid(751ffe4730627de438627a150f3053bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Raod_01_A.fbx using Guid(751ffe4730627de438627a150f3053bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404d48ddce2890bbb95b368a49b045c2') in 0.046037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Pier_01_B.fbx
+  artifactKey: Guid(1f64dcb5f71197247ab081066586a43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Pier_01_B.fbx using Guid(1f64dcb5f71197247ab081066586a43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdea6ad089cd93190ee7fa792003bd5') in 0.055963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Raod_03_A.fbx
+  artifactKey: Guid(db6d49ab6d952924e9c4943e02b4fe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Raod_03_A.fbx using Guid(db6d49ab6d952924e9c4943e02b4fe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ffa345439e539ade1a4710a6f212e7') in 0.042805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Pier_01_A.fbx
+  artifactKey: Guid(6e42b56123b82c647a57babe8b16ca97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Pier_01_A.fbx using Guid(6e42b56123b82c647a57babe8b16ca97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea1ba38cd49190bcfc6cf4c03ddd936') in 0.057469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Signboard_01_B.fbx
+  artifactKey: Guid(856efe195984e0441800806f7602db15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Signboard_01_B.fbx using Guid(856efe195984e0441800806f7602db15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a164ed822e9b8796056519eae4d755') in 0.044459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Raod_03_B.fbx
+  artifactKey: Guid(30bf9a5786dbdcd4e90b860f89caeefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Raod_03_B.fbx using Guid(30bf9a5786dbdcd4e90b860f89caeefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3eb011104bc02a48145571549bfc422') in 0.042360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Raod_01_B.fbx
+  artifactKey: Guid(ce26af65a466eb14ab5e5668f1d504dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Raod_01_B.fbx using Guid(ce26af65a466eb14ab5e5668f1d504dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880a7ad5e43aba00b5403013a9bbcf23') in 0.043880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_22_B.fbx
+  artifactKey: Guid(8886402c7656e9f43821ad7364ce798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_22_B.fbx using Guid(8886402c7656e9f43821ad7364ce798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10aa05a928f4c9f08534377eb614e5ce') in 0.069783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_26_B.fbx
+  artifactKey: Guid(c815a2ba02cea87468fa37c98a5de122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_26_B.fbx using Guid(c815a2ba02cea87468fa37c98a5de122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b2dc9c30b64ad6ae8c55fc420e9280') in 0.049152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_25_A.fbx
+  artifactKey: Guid(2dcddfaf7c255cb4392f87d7be03c786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_25_A.fbx using Guid(2dcddfaf7c255cb4392f87d7be03c786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d0c5aac8bb07208e0b18935d10eb85') in 0.067920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_20_A.fbx
+  artifactKey: Guid(51e346e69706144418e9e9e725f6ef58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_20_A.fbx using Guid(51e346e69706144418e9e9e725f6ef58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5c3ddbe6d1f0b40f939815e9e650e2') in 0.065903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_26_A.fbx
+  artifactKey: Guid(3195b205a72d0384781bce1aa48fca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_26_A.fbx using Guid(3195b205a72d0384781bce1aa48fca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08657aa7d94d234632cb114b3ee84327') in 0.043301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Raod_02_B.fbx
+  artifactKey: Guid(cdc15d1fd01b9f848a456175548fd1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Raod_02_B.fbx using Guid(cdc15d1fd01b9f848a456175548fd1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbadc2ede0e4f99d8d6a5edd88286b2') in 0.053606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Mushroom_01_B.fbx
+  artifactKey: Guid(2fa8346fd7bdb9e4a89e45f8a182310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Mushroom_01_B.fbx using Guid(2fa8346fd7bdb9e4a89e45f8a182310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41390993f6e5e4e274117f072c97f2e8') in 0.042079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_22_A.fbx
+  artifactKey: Guid(57d259be19b2a5f4db08af83c766062e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_22_A.fbx using Guid(57d259be19b2a5f4db08af83c766062e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5205ad15a009ed6ca981dd98cb53ebbf') in 0.056351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_19_B.fbx
+  artifactKey: Guid(399a2a86129571b4a948fa19946c4f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_19_B.fbx using Guid(399a2a86129571b4a948fa19946c4f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8781ae4c416dc11d8b2060708d3421be') in 0.058746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_28_B.fbx
+  artifactKey: Guid(83930b5c1b5574d4e95f9e561d583cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_28_B.fbx using Guid(83930b5c1b5574d4e95f9e561d583cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d004f00326ba79bcbeb1ea7a472b9fc') in 0.069410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Hous_20_B.fbx
+  artifactKey: Guid(92ac89be4607722449fc04f36eebc524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Hous_20_B.fbx using Guid(92ac89be4607722449fc04f36eebc524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5b89297637d78c32658753ad889820') in 0.059869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.689906 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Stone_01_A.fbx
+  artifactKey: Guid(b3a97b52a9d809d43bf63278d7a461c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Stone_01_A.fbx using Guid(b3a97b52a9d809d43bf63278d7a461c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e6745c52c72a7c5b1d9a841c81ec5d') in 0.041902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Stone_02_B.fbx
+  artifactKey: Guid(286a9999e98890b46ab71e9bc498dea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Stone_02_B.fbx using Guid(286a9999e98890b46ab71e9bc498dea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2156e34c2b6a2545f3d487bdd9a055') in 0.041925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Stone_03_B.fbx
+  artifactKey: Guid(e8af3e264b9b6d9418410b436f798c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Stone_03_B.fbx using Guid(e8af3e264b9b6d9418410b436f798c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab395ad43f1ed5204498ebf04086f91d') in 0.043587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Stone_01_B.fbx
+  artifactKey: Guid(01bf6a7f0ada7b943b21e57ba2667f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Stone_01_B.fbx using Guid(01bf6a7f0ada7b943b21e57ba2667f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d950acafb93d9996a7675f3a85e7c7') in 0.043937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Territory_02_A.fbx
+  artifactKey: Guid(2440782d49b34ac429b55b23225dc852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Territory_02_A.fbx using Guid(2440782d49b34ac429b55b23225dc852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71ceeaa3b09db4d5aa418c0cc684898') in 0.043400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Stone_03_A.fbx
+  artifactKey: Guid(d6b87693112158947883d546e0b1ee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Stone_03_A.fbx using Guid(d6b87693112158947883d546e0b1ee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872fd709e33d26cb8af8ebd187824065') in 0.041204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Stone_04_B.fbx
+  artifactKey: Guid(1995697aca7869946b8cb914b3c34dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Stone_04_B.fbx using Guid(1995697aca7869946b8cb914b3c34dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e05357757d9ce25283554da6f6d5971') in 0.043223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Territory_01_B.fbx
+  artifactKey: Guid(78c9825cd53920d4d9be1f50e4227de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Territory_01_B.fbx using Guid(78c9825cd53920d4d9be1f50e4227de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d36d061b6c2113dec7b3e6348a8a6d') in 0.051278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Stone_02_A.fbx
+  artifactKey: Guid(16fde66c66d4f9046bebab0e092d1ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Stone_02_A.fbx using Guid(16fde66c66d4f9046bebab0e092d1ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ac33f103ce6d04b646c018dffbb2b7') in 0.043690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Territory_01_A.fbx
+  artifactKey: Guid(b21e4c87d1538424aa7a58901a5c66ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Territory_01_A.fbx using Guid(b21e4c87d1538424aa7a58901a5c66ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72293c0f13b94894cf3e21e1deff40a9') in 0.041809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Stone_04_A.fbx
+  artifactKey: Guid(e4927bf7adef951409e39b52b76e6b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Stone_04_A.fbx using Guid(e4927bf7adef951409e39b52b76e6b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ed45079f7e152a4bc68ea60df0609e') in 0.044897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.394147 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Territory_02_B.fbx
+  artifactKey: Guid(5b6fbb78df4b5794392c81c4a321d555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Territory_02_B.fbx using Guid(5b6fbb78df4b5794392c81c4a321d555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a0044928281d47639b581742334ce0') in 0.044620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Tree_01_B.fbx
+  artifactKey: Guid(5dfec90f60a33fe418e0fb01ffa8560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Tree_01_B.fbx using Guid(5dfec90f60a33fe418e0fb01ffa8560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b386d8dd2a74025f0c5ac6f328be23') in 0.043159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Tree_03_B.fbx
+  artifactKey: Guid(ab3cd03be4e6b9747939d26135d3d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Tree_03_B.fbx using Guid(ab3cd03be4e6b9747939d26135d3d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb359b05792e068a022fc5c93ef4624f') in 0.162992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Torch_01_A.fbx
+  artifactKey: Guid(2b491f1acb735fa41a8656d86f320096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Torch_01_A.fbx using Guid(2b491f1acb735fa41a8656d86f320096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae41da8bcd743c8b23d8a57b62e3352') in 0.045465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Territory_03_B.fbx
+  artifactKey: Guid(b0926be21f801d6469b5c9217f3c1865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Territory_03_B.fbx using Guid(b0926be21f801d6469b5c9217f3c1865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de68cab6fda9d63443a12db8ac18ce8') in 0.047727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Torch_01_B.fbx
+  artifactKey: Guid(38b16bb833e031e4db1dd912d4c5a718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Torch_01_B.fbx using Guid(38b16bb833e031e4db1dd912d4c5a718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0bb856831b4b8410c553f51217c34b') in 0.049681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Tree_02_B.fbx
+  artifactKey: Guid(0e4e5eb5f92b5b74da562eb319e470ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Tree_02_B.fbx using Guid(0e4e5eb5f92b5b74da562eb319e470ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3951ccf9be6e54555369fde2343084ff') in 0.047516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Tree_02_A.fbx
+  artifactKey: Guid(849cd8e769dcec84eb553a3b2498902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Tree_02_A.fbx using Guid(849cd8e769dcec84eb553a3b2498902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0082a15dafb12ffba4fae2461071a5fe') in 0.048127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Territory_03_A.fbx
+  artifactKey: Guid(2a17894482148da40805b101ea9a28cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Territory_03_A.fbx using Guid(2a17894482148da40805b101ea9a28cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cac502f2349391a40394b5287b76b19') in 0.047499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Tree_03_A.fbx
+  artifactKey: Guid(0627b77b22573a543ab9b459344df975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Tree_03_A.fbx using Guid(0627b77b22573a543ab9b459344df975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cd53cd7edeafdf8401c395ca638d5c') in 0.052309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Polygon-FantasyVillage/Models/SM_Tree_01_A.fbx
+  artifactKey: Guid(d6d09ba6840fff24a99509d9d0ff939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Models/SM_Tree_01_A.fbx using Guid(d6d09ba6840fff24a99509d9d0ff939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6e83323045cd4fc1795f7badb6b888') in 0.049975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.261569 seconds.
+  path: Assets/Visual Design Cafe/Stylized Nature - Grasslands/Grass/Grass Generic Group Medium.prefab
+  artifactKey: Guid(7a98af77471fb984ebdc521519ec42a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Stylized Nature - Grasslands/Grass/Grass Generic Group Medium.prefab using Guid(7a98af77471fb984ebdc521519ec42a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a62d8f4843f4da0904fb467e9acf54') in 0.805751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.746710 seconds.
+  path: Assets/Visual Design Cafe/Stylized Nature - Grasslands/Trees/Tree Broadleaf XL1.prefab
+  artifactKey: Guid(817b12eb384dea244b294784b75777da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Stylized Nature - Grasslands/Trees/Tree Broadleaf XL1.prefab using Guid(817b12eb384dea244b294784b75777da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30a4da3011df9692627b5380263203d') in 0.900613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.389384 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer/Resources/Default Grass Patch.fbx
+  artifactKey: Guid(34ffaddba4b8fba47bf3a6a0496f47f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer/Resources/Default Grass Patch.fbx using Guid(34ffaddba4b8fba47bf3a6a0496f47f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575b51b3c4394676df562ae6818ee95c') in 0.866565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Polygon-FantasyVillage/Prefabs/SM_Box_01_A.prefab
+  artifactKey: Guid(8db33a7c3cac55b468919502b96b1c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Prefabs/SM_Box_01_A.prefab using Guid(8db33a7c3cac55b468919502b96b1c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142eb23ca20c13fabcb8e36962eb6b4b') in 0.024042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Visual Design Cafe/Stylized Nature - Grasslands/(Source Assets)/Meshes/grass_generic_group_medium.fbx
+  artifactKey: Guid(b7e76ddcf4cad2343ada97f9be76f6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Stylized Nature - Grasslands/(Source Assets)/Meshes/grass_generic_group_medium.fbx using Guid(b7e76ddcf4cad2343ada97f9be76f6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85893b0d2cd37518464b318730d168ab') in 0.035148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Polygon-FantasyVillage/Prefabs/SM_Box_01_B.prefab
+  artifactKey: Guid(7d746c1bcd8bbf348ba09b1643aabef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Prefabs/SM_Box_01_B.prefab using Guid(7d746c1bcd8bbf348ba09b1643aabef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1aab9830e2c9bc793a173e4ed75db7') in 0.027709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.193923 seconds.
+  path: Assets/Polygon-FantasyVillage/Prefabs/SM_Cart_01_A.prefab
+  artifactKey: Guid(dce7b56b20efbf44099af52b96757666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Prefabs/SM_Cart_01_A.prefab using Guid(dce7b56b20efbf44099af52b96757666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f57a1170d85047f018f6838c2df715') in 0.029487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.184564 seconds.
+  path: Assets/Polygon-FantasyVillage/Prefabs/SM_Cart_01_B.prefab
+  artifactKey: Guid(2060eaf1a6225b944987cf0b26362bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Prefabs/SM_Cart_01_B.prefab using Guid(2060eaf1a6225b944987cf0b26362bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519e6a4ab912b161b9507279765e3d49') in 0.028402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.758953 seconds.
+  path: Assets/Polygon-FantasyVillage/Prefabs/SM_Tree_01_B.prefab
+  artifactKey: Guid(1b885adf9179c154ba772353e3494d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Prefabs/SM_Tree_01_B.prefab using Guid(1b885adf9179c154ba772353e3494d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e11bb3630827999fc7f582453bc5543') in 0.028687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Polygon-FantasyVillage/Prefabs/SM_Tree_03_B.prefab
+  artifactKey: Guid(b368a6205b75ec0488243dcd8ba31da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Prefabs/SM_Tree_03_B.prefab using Guid(b368a6205b75ec0488243dcd8ba31da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb492bfce2ec5039a062a251c57767ad') in 0.028450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Polygon-FantasyVillage/Prefabs/SM_Tree_02_B.prefab
+  artifactKey: Guid(9b4edc8bbc71ebb4584c54ed46a0bce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Prefabs/SM_Tree_02_B.prefab using Guid(9b4edc8bbc71ebb4584c54ed46a0bce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c02645ddaac561bd7ec30a40f29bb2f') in 0.027144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Polygon-FantasyVillage/Prefabs/SM_Tree_03_A.prefab
+  artifactKey: Guid(119d3e43953dc3c46b5350b45ac8fe82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Prefabs/SM_Tree_03_A.prefab using Guid(119d3e43953dc3c46b5350b45ac8fe82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a3bbb765a4ae3ca9cf64f910fcc16a') in 0.026947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Polygon-FantasyVillage/Prefabs/SM_Tree_02_A.prefab
+  artifactKey: Guid(a093016ded4a951448b57f4fd9269e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Prefabs/SM_Tree_02_A.prefab using Guid(a093016ded4a951448b57f4fd9269e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3fba6f03a827c6d76fa7eb13e93e25') in 0.029052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.121173 seconds.
+  path: Assets/Visual Design Cafe/Stylized Nature - Grasslands/(Source Assets)/Meshes/tree_Broadleaf_XL1_LOD0.fbx
+  artifactKey: Guid(dac470a0a89459842a6e69246f347c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Stylized Nature - Grasslands/(Source Assets)/Meshes/tree_Broadleaf_XL1_LOD0.fbx using Guid(dac470a0a89459842a6e69246f347c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb83a55d71f90bc2521124b5d29a3d9') in 0.069495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.591719 seconds.
+  path: Assets/Visual Design Cafe/Stylized Nature - Grasslands/(Source Assets)/Meshes/tree_Broadleaf_XL1_LOD1.fbx
+  artifactKey: Guid(4b949cea5798d85488f962d9351805f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Stylized Nature - Grasslands/(Source Assets)/Meshes/tree_Broadleaf_XL1_LOD1.fbx using Guid(4b949cea5798d85488f962d9351805f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d9eba66c10828d753a5e34576c55cb') in 0.061259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.237526 seconds.
+  path: Assets/Polygon-FantasyVillage/Prefabs/SM_Tree_01_A.prefab
+  artifactKey: Guid(ad3d9cd359797294f8f003fba03116d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-FantasyVillage/Prefabs/SM_Tree_01_A.prefab using Guid(ad3d9cd359797294f8f003fba03116d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5769a3743562a89377ac8cdf27cbf9da') in 0.029599 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.029712 seconds.
+Registered in 0.019093 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.471 seconds
+- Completed reload, in  1.797 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1471ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+	ReloadAssembly (1797ms)
+		BeginReloadAssembly (307ms)
+			ExecutionOrderSort (2ms)
+			DisableScriptedObjects (82ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1266ms)
-			LoadAssemblies (117ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1423ms)
+			LoadAssemblies (131ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
+			SetupTypeCache (400ms)
 			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (437ms)
+			SetupLoadedEditorAssemblies (445ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (282ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3961 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 194.0 MB.
-System memory in use after: 194.2 MB.
+Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.9 MB.
+System memory in use after: 216.2 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4690.
-Total: 3.904000 ms (FindLiveObjects: 0.320200 ms CreateObjectMapping: 0.151700 ms MarkObjects: 3.398700 ms  DeleteObjects: 0.032300 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4863.
+Total: 3.466600 ms (FindLiveObjects: 0.294800 ms CreateObjectMapping: 0.188900 ms MarkObjects: 2.959400 ms  DeleteObjects: 0.022500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
